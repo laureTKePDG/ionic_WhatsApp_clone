@@ -1,0 +1,93 @@
+ion-avatar {
+    height: 45px;
+    width: 45px;
+}
+h2 {
+    font-weight: 700;
+    font-size: 15px;
+    font-style: bold;
+}
+.flex_box {
+    display: flex;
+    justify-content: space-between;
+}
+ion-note {
+    font-size: 13px;
+}
+.text-icon {
+    font-size: 22px;
+    margin-bottom: -6px;
+}
+p {
+    color: grey;
+}
+
+.qr{
+    font-size: 30px;
+    color: blue;
+    background-color: rgba(246, 244, 244, 0.711);
+    border-radius: 20%;
+   // margin-left: 90% ;
+}
+
+.avatar{
+    color: blue;
+}
+
+
+.star{
+    background-color: yellow;
+    color: white;
+    border-radius: 20%;
+    border-color: gray;
+
+}
+
+.laptop{
+    background-color: rgb(107, 175, 107);
+    color: white;
+    border-radius: 20%;
+
+}
+
+.key{
+    background-color: blue;
+    color: white;
+    border-radius: 20%;
+}
+
+.lock{
+    background-color: rgba(26, 125, 158, 0.664);
+    color: white;
+    border-radius: 20%;
+}
+
+.what{
+    background-color:#5bbf18;
+    color: white;
+    border-radius: 20%;
+}
+
+.notif{
+    background-color: red;
+    color: white;
+    border-radius: 20%;
+}
+
+.swap{
+    background-color: #5bbf18;
+    color: white;
+    border-radius: 20%; 
+}
+
+.help{
+    background-color: rgb(62, 62, 208);
+    color: white;
+    border-radius: 20%; 
+}
+
+.heart{
+    background-color: rgb(199, 60, 60);
+    color: white;
+    border-radius: 20%; 
+}

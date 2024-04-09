@@ -1,0 +1,50 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-back-button text = "Back."></ion-back-button>
+
+        </ion-buttons>
+        <ion-title>
+            Luke Skywalker <br> <div class = " status"> Onligne</div>
+        <ion-avatar slot="end">
+            <img src="../../assets/avatar-luke.jpeg" alt="">
+        </ion-avatar>
+
+        </ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <div class="bg">
+        <ion-item lines ="none">
+            <ion-badge color="warning" slot="end">
+                Hi Luke How are you ?
+                <ion-note color="medium">10:45</ion-note>
+            </ion-badge>
+        </ion-item>  
+
+        <ion-item lines="none">
+            <ion-badge color="ligth" slot="start" class="text">
+                Well guys!
+                <ion-note color="medium">11:45</ion-note>
+            </ion-badge>
+        </ion-item>
+    </div>
+</ion-content>
+
+<ion-footer>
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-button fill="outline" shape="round" size="small">
+                <ion-icon slot="icon-only" name="arrow-roun-up"></ion-icon>
+            </ion-button>
+        </ion-buttons >
+        <ion-input aria-placeholder="Your Message" class="speak"></ion-input>
+        <ion-buttons slot="end">
+          
+            <ion-button >
+                Submit
+            </ion-button>
+        </ion-buttons>
+    </ion-toolbar>
+</ion-footer>

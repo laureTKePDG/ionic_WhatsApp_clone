@@ -1,0 +1,140 @@
+<ion-header>
+  <ion-toolbar>
+      <ion-title size="large">Reglages</ion-title>
+  </ion-toolbar>
+  <ion-toolbar>
+    <ion-searchbar></ion-searchbar>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content class="header1">
+<ion-toolbar>
+<ion-avatar slot="start" >
+  <img src="../../assets/avatar-luke.jpeg">
+  </ion-avatar>
+  <ion-icon name='qr-code-sharp' slot="end" class="qr"></ion-icon>
+  <ion-label>
+    <div class="flex_box">
+      <h2>Luke Skywalker</h2>
+    </div>
+    <div class="flex_box">
+      <p> add description here</p>
+    </div>
+  </ion-label>
+</ion-toolbar>
+
+    <ion-list >
+      <ion-item lines="full"></ion-item>
+      <ion-item detail routerLink="/conversation">
+        <ion-icon  slot="start" name="logo-octocat" class = "avatar"></ion-icon>
+        <ion-label>
+          <div class="flex_box">
+            <h3>Avatar</h3>
+          </div>
+        </ion-label>
+      </ion-item>
+    </ion-list>
+<br>
+<br>
+
+  <ion-list >
+
+    <ion-item detail routerLink="/conversation">
+      <ion-icon name="star" class="star" slot="start"></ion-icon>
+        <ion-label>
+        <div class="flex_box">
+          <h3>Important Messages</h3>
+        </div>
+      </ion-label>
+    </ion-item>
+  
+
+    <ion-item detail routerLink="/conversation">
+      <ion-icon name="laptop-outline" slot="start" class="laptop"></ion-icon>
+      <ion-label>
+        <div class="flex_box">
+          <h3>Connected devices</h3>
+        </div>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+
+  <br>
+  <br>
+
+  <ion-list >
+
+    <ion-item detail routerLink="/conversation">
+      <ion-icon name="key" slot="start" class="key"></ion-icon>
+
+        <ion-label>
+        <div class="flex_box">
+          <h3>Accounts</h3>
+        </div>
+      </ion-label>
+    </ion-item>
+  
+    <ion-item detail routerLink="/conversation">
+      <ion-icon name="lock-closed" slot="start" class="lock"></ion-icon>
+      <ion-label>
+        <div class="flex_box">
+          <h3>Confidentiality</h3>
+        </div>
+      </ion-label>
+    </ion-item>
+
+    <ion-item detail routerLink="/conversation">
+      <ion-icon name="logo-whatsapp" slot="start" class="what"></ion-icon>
+      <ion-label>
+        <div class="flex_box">
+          <h3>discussions</h3>
+        </div>
+      </ion-label>
+    </ion-item>
+
+    <ion-item detail routerLink="/conversation">
+      <ion-icon name="mail-unread-outline"slot="start" class="notif"></ion-icon>
+      <ion-label>
+        <div class="flex_box">
+          <h3>notifications</h3>
+        </div>
+      </ion-label>
+    </ion-item>
+
+    <ion-item detail routerLink="/conversation">
+      <ion-icon name="swap-vertical-outline" slot="start" class="swap"></ion-icon>
+      <ion-label>
+        <div class="flex_box">
+          <h3>Data Storage</h3>
+        </div>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+  <br>
+  <br>
+
+  <ion-list >
+
+    <ion-item detail routerLink="/conversation">
+      <ion-icon name="information-outline"  slot="start" class="help"></ion-icon>
+        <ion-label>
+        <div class="flex_box">
+          <h3>help</h3>
+        </div>
+      </ion-label>
+    </ion-item>
+  
+
+    <ion-item detail routerLink="/conversation">
+      <ion-icon name="heart-outline" slot="start" class="heart"></ion-icon>
+      <ion-label>
+        <div class="flex_box">
+          <h3>invite a contact</h3>
+        </div>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>
+
+
